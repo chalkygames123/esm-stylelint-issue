@@ -1,11 +1,11 @@
 Succeeds:
 
-```
-$ npm run start
+```bash
+$ node .
 ```
 
 Fails:
 
-```
-$ npm run start -- --require esm
+```bash
+$ node --require esm .
 ```

@@ -1,10 +1,7 @@
 {
-  "scripts": {
-    "start": "gulp"
-  },
+  "main": "index.js",
   "devDependencies": {
     "esm": "3.2.10",
-    "gulp": "4.0.0",
     "stylelint": "9.10.0"
   },
   "private": true
