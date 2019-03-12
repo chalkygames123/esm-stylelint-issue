@@ -1,5 +1,9 @@
 {
   "main": "index.js",
+  "scripts": {
+    "succeeds": "node .",
+    "fails": "node --require esm ."
+  },
   "devDependencies": {
     "esm": "3.2.10",
     "stylelint": "9.10.0"
